@@ -24,11 +24,6 @@ body {
   min-height: 100vh;
   line-height: 1.5;
 }
-.technical-title {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-}
 
 nav {
   background-color: #e4e4e7;
@@ -65,48 +60,30 @@ nav ul li a.active-nav {
   border-bottom: 2px solid var(--text-main); 
 }
 
-.header-container {
+
+header {
   max-width: 1280px;
   margin: 0 auto;
   padding: 4rem 1rem 3rem 1rem;
   text-align: center;
+
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    color: var(--accent-label);
+  }
+
+  p {
+    color: var(--text-muted);
+    margin-top: 1rem;
+    font-size: 1rem;
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.header-subtitle {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  color: var(--accent-label);
-  text-transform: uppercase;
-}
-
-.header-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  margin-top: 0.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 42rem;
-}
-
-.header-desc {
-  color: var(--text-muted);
-  margin-top: 1rem;
-  font-size: 1rem;
-  max-width: 32rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header-divider {
-  height: 1px;
-  width: 3rem;
-  background-color: #d4d4d8;
-  margin: 2rem auto 0 auto;
-}
-
-/* --- Main Responsive Grid --- */
 .main-content {
   max-width: 1280px;
   margin: 0 auto;
