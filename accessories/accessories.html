@@ -3,32 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styling.css" />
     <title>Accessories</title>
-
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-        padding: 30px;
-      }
-      h1 {
-        text-align: center;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 4rem;
-      }
-      p {
-        text-align: center;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 1.5rem;
-      }
-    </style>
   </head>
   <body>
-      <h1>Working on this</h1>
-      <p>Finding Best collection for you</p>
+    <nav class="navbar">
+      <div class="logo">The Aesthetic Styles</div>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="/handbags/handbags">Earrings</a></li>
+        <li><a href="/accessories/accessories"></a></li>
+      </ul>
+    </nav>
+
+    <h1>This page is under constructing</h1>
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>

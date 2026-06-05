@@ -67,6 +67,13 @@ h1 {
   font-size: 25px;
   margin-top: 0;
   color: white;
+  background-color: rgba(210, 210, 210, 0.61);
+  backdrop-filter: blur(5px);
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid rgba(214, 214, 214, 0.59);
+  font-weight: 1000;
 }
 
 .card a {
@@ -94,6 +101,9 @@ h1 {
   background-image: url(Images/Bag32.webp);
 }
 
+.travelbag-bg {
+  background-image: url(Images/dbag.webp);
+}
 .cta-button {
   background-color: white;
   color: #333;
@@ -109,10 +119,10 @@ h1 {
 @media screen and (max-width: 768px) {
   .hero-content {
   text-align: center;
-  display: flex;             /* Enables Flexbox */
-  flex-direction: column;    /* Stacks elements vertically */
-  align-items: center;       /* Centers horizontally */
-  justify-content: center;   /* Centers vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  justify-content: center;   
 }
   .hero-content p {
     text-align: center;
@@ -120,4 +130,19 @@ h1 {
   .cta-button {
     margin: 0 auto;
   }
+}
+
+footer {
+  background-color: rgb(239, 239, 239);
+  border-top: 1px solid rgb(206, 206, 206);
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--accent-label);
+}
+
+footer p {
+  max-width: 42rem;
+  margin: 0 auto;
+  line-height: 1.6;
 }
