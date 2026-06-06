@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="image" href="Images/banner.webp">
+    <link rel="preload" as="image" href="Images/banner.webp" />
     <link
       href="https://fonts.googleapis.com/css2?family=Alata&family=Fjalla+One&family=Jockey+One&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="icon" type="image/x-icon" href="Images/logo.png" />
     <link rel="stylesheet" href="style.css" />
     <title>The Aesthetic Styles</title>
   </head>
@@ -27,39 +27,87 @@
       </div>
     </div>
 
-    <h1 id="shop">Categories</h1>
-
-    <div class="grid">
-      <div class="card streetware-bg">
-        <h3>Streetwear</h3>
-        <p>Modern styles for your everyday look.</p>
-        <a href="streetware and onepiece outfit/streetwareoutfits.html">Shop Streetwear →</a>
+    <section class="categories-section" id="shop">
+      <div class="categories-header">
+        <span class="categories-label">Browse Collections</span>
+        <h2 class="categories-title">Shop by Category</h2>
       </div>
 
-      <div class="card hiking-bg">
-        <h3>Hiking Gear</h3>
-        <p>Explore the great outdoors in style.</p>
-        <a href="Outdoor/outdoor.html">Shop Hiking →</a>
-      </div>
+      <div class="categories-grid">
+        <a
+          href="streetware and onepiece outfit/streetwareoutfits.html"
+          class="cat-card cat-large streetware-bg"
+        >
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <span class="cat-tag">Trending Now</span>
+            <div class="cat-bottom">
+              <h3>Streetwear</h3>
+              <p>Modern styles for everyday</p>
+              <span class="cat-cta">Shop Now →</span>
+            </div>
+          </div>
+        </a>
 
-      <div class="card handbag-bg">
-        <h3>HandBags</h3>
-        <p>Best Bags with best reviews.</p>
-        <a href="handbags/handbags.html">Shop Handbags →</a>
-      </div>
+        <a href="Outdoor/outdoor.html" class="cat-card hiking-bg">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <div class="cat-bottom">
+              <h3>Hiking Gear</h3>
+              <p>Explore outdoors in style</p>
+              <span class="cat-cta">Shop Now →</span>
+            </div>
+          </div>
+        </a>
 
-      <div class="card travelbag-bg">
-        <h3>Travel Bags</h3>
-        <p>Best Bags with best reviews.</p>
-        <a href="travel bags/travelbags.html">Shop Bags →</a>
-      </div>
+        <a href="handbags/handbags.html" class="cat-card handbag-bg">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <div class="cat-bottom">
+              <h3>Handbags</h3>
+              <p>Best bags, best reviews</p>
+              <span class="cat-cta">Shop Now →</span>
+            </div>
+          </div>
+        </a>
 
-      <div class="card accessories-bg">
-        <h3>Accessories</h3>
-        <p>The final touch to every outfit.</p>
-        <a href="accessories/accessories.html">Shop Accessories →</a>
+        <a
+          href="travel bags/travelbags.html"
+          class="cat-card cat-wide travelbag-bg"
+        >
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <div class="cat-bottom">
+              <h3>Travel Bags</h3>
+              <p>Built for the journey</p>
+              <span class="cat-cta">Shop Now →</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="jeans/jeans.html" class="cat-card new-cat-bg jeans-bg">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <div class="cat-bottom">
+              <h3>Jeans</h3>
+              <p>Aesthetic Baggy Jeans</p>
+              <span class="cat-cta">Shop Now →</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="rings/rings.html" class="cat-card  ring-bg">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <div class="cat-bottom">
+              <h3>Rings</h3>
+              <p>Discover premium rings for Different Events</p>
+              <span class="cat-cta">Shop Now →</span>
+            </div>
+          </div>
+        </a>
       </div>
-    </div>
+    </section>
     <footer>
       <p>
         As an Amazon Associate, this site earns from qualifying purchases. When
