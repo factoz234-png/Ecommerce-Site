@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Aesthetic Styles — curated fashion picks for streetwear, handbags, hiking gear, travel bags and accessories. All sourced from Amazon." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preload" as="image" href="Images/banner.webp" />
@@ -18,7 +19,26 @@
     <link rel="stylesheet" href="style.css" />
     <title>The Aesthetic Styles</title>
   </head>
+
   <body>
+
+    <nav class="navbar">
+      <a href="/" class="nav-logo">
+        <img src="/Images/logo.png" alt="The Aesthetic Styles" />
+      </a>
+      <button class="nav-toggle" onclick="this.nextElementSibling.classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="/Article section/articlesindex.html">Articles</a></li>
+        <li><a href="/About Page/about.html">About</a></li>
+        <li><a href="/contact page/contact.html">Contact</a></li>
+        <li><a href="/Privacy Policy/privacy-policy.html">Privacy Policy</a></li>
+
+      </ul>
+    </nav>
+
+
     <div class="hero">
       <div class="hero-content">
         <h1>The Aesthetic Styles</h1>
@@ -96,7 +116,7 @@
           </div>
         </a>
 
-        <a href="rings/rings.html" class="cat-card  ring-bg">
+        <a href="rings/rings.html" class="cat-card ring-bg">
           <div class="cat-overlay"></div>
           <div class="cat-content">
             <div class="cat-bottom">

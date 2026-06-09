@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Space+Grotesk:wght@300..700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/Images/logo.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Message Sent – The Aesthetic Styles</title>
+    <style>
+      .success-wrap {
+        max-width: 520px;
+        margin: 0 auto;
+        padding: 120px 24px;
+        text-align: center;
+      }
+      .success-icon {
+        font-size: 3rem;
+        margin-bottom: 24px;
+        display: block;
+      }
+      .success-title {
+        font-family: "Playfair Display", serif;
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin: 0 0 14px;
+      }
+      .success-title em { font-style: italic; font-weight: 400; }
+      .success-desc {
+        font-size: 1rem;
+        color: #777;
+        line-height: 1.75;
+        margin: 0 0 36px;
+      }
+      .success-btn {
+        display: inline-block;
+        background: #1a1a1a;
+        color: #fff;
+        font-size: 0.85rem;
+        font-weight: 600;
+        padding: 13px 28px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: background 0.2s;
+      }
+      .success-btn:hover { background: #333; }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <a href="/" class="nav-logo">
+        <img src="/Images/logo.png" alt="The Aesthetic Styles" />
+      </a>
+      <button class="nav-toggle" onclick="this.nextElementSibling.classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#shop">Shop</a></li>
+        <li><a href="/blog/">Articles</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="success-wrap">
+      <span class="success-icon">✉️</span>
+      <h1 class="success-title">Message <em>Received</em></h1>
+      <p class="success-desc">Thanks for reaching out! We'll get back to you within 24 hours. In the meantime, feel free to explore our latest picks.</p>
+      <a href="/" class="success-btn">Back to Home →</a>
+    </div>
+
+    <footer>
+      <p>As an Amazon Associate, this site earns from qualifying purchases.</p>
+    </footer>
+
+  </body>
+</html>

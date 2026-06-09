@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="p:domain_verify" content="2625554ddc62a18d2c8ba4f7e1baa99e" />
     <link rel="icon" type="image/png" href="Images/logo.png" />
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/allcards.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +18,23 @@
     <title>Outdoor Utilities</title>
   </head>
   <body>
+
+    <nav class="navbar">
+      <a href="/" class="nav-logo">
+        <img src="/Images/logo.png" alt="The Aesthetic Styles" />
+      </a>
+      <button class="nav-toggle" onclick="this.nextElementSibling.classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#shop">Shop</a></li>
+        <li><a href="/Article section/articlesindex.html" class="nav-active">Articles</a></li>
+        <li><a href="/About Page/about.html">About</a></li>
+        <li><a href="/contact page/contact.html">Contact</a></li>
+        <li><a href="/Privacy Policy/privacy-policy.html">Privacy Policy</a></li>
+
+      </ul>
+    </nav>
+
     <header class="header-container">
       <span class="header-subtitle">Best Thing with Best Reviews</span>
       <h1 class="header-title">Premium Collection of Baggy Jeans</h1>
@@ -31,6 +49,7 @@
               <img
                 src="/Images/butterflyjeans.webp"
                 alt="BECOJADDE 15L Small Hiking Backpack"
+                fetchpriority="auto"
                 loading="eager"
               />
               <span class="badge">Unique</span>
